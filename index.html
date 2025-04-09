@@ -1,13 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priyesh's Day-02</title>
-  
- <style>
-  * {
+  <style>
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -74,12 +73,53 @@ body {
     color: white;
     row-gap: 1rem;
     padding: 0.8rem 0.4rem;
+    box-shadow: 0px 4px 9px black;
 
 
 
 }
 
+@media (max-width:776px) {
+    #grid-section {
+
+       
+    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3,220px);
+    
+    }
+    
+}
+@media (max-width:422px) {
+    #grid-section {
+
+       
+    
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,200px);
+    
+    }
+    
+}
 #r-more {
+    padding: 0.3rem 0.5rem;
+    width: fit-content;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 550;
+    color: white;
+    background: black;
+    transition: all 0.4s ease;
+
+
+    &:hover {
+        background-color: white;
+        color: black;
+        filter: drop-shadow(0px 1px 7px rgb(9, 155, 130));
+    }
+}
+
+.r-head button{
     padding: 0.3rem 0.5rem;
     width: fit-content;
     border: none;
@@ -120,18 +160,18 @@ body {
 #grid-section div:nth-child(6) {
     background-color: rgb(241, 42, 52);
 }
- </style>
+  </style>
 </head>
 
 <body>
-    <h1>Ketan !</h1>
+    <h1 style="background-color: rgb(6, 68, 68); color: white; text-align: center; padding: 0.5rem 0.1rem;">Ghost Of The Uchiha Madara Uchiha </h1>
 
 <div class="main-div">
 
     <div class="header-box">
         <div class="l-head">
             <img src="#" alt="img">
-            <h3>Ketan</h3>
+            <h3>Priyesh</h3>
         </div>
         <div class="r-head"> 
             <button>More..</button>
