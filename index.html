@@ -5,7 +5,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priyesh's Day-02</title>
-    <link rel="stylesheet" href="style.css">
+  
+ <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-div {
+    max-width: 1300px;
+    margin: 1.5rem auto;
+    border: 1px solid #dadd;
+    border-radius: 5rem;
+}
+
+.header-box {
+    max-width: 90%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.l-head {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.l-head img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.r-head button {
+    padding: 0.3rem 0.8rem;
+    text-align: center;
+
+}
+
+#grid-section {
+
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 1rem;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+
+}
+
+#grid-section div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    border: 1px solid #dadd;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    row-gap: 1rem;
+    padding: 0.8rem 0.4rem;
+
+
+
+}
+
+#r-more {
+    padding: 0.3rem 0.5rem;
+    width: fit-content;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 550;
+    color: white;
+    background: black;
+    transition: all 0.4s ease;
+
+
+    &:hover {
+        background-color: white;
+        color: black;
+        filter: drop-shadow(0px 1px 7px rgb(9, 155, 130));
+    }
+}
+
+#grid-section div:nth-child(2) {
+    background-color: red;
+}
+
+#grid-section div:nth-child(3) {
+    background-color: rgb(243, 208, 9);
+}
+
+#grid-section div:nth-child(4) {
+    background-color: rgb(38, 250, 102);
+}
+
+#grid-section div:nth-child(5) {
+    background-color: rgb(123, 22, 255);
+}
+
+#grid-section div:nth-child(6) {
+    background-color: rgb(104, 37, 40);
+}
+
+#grid-section div:nth-child(6) {
+    background-color: rgb(241, 42, 52);
+}
+ </style>
 </head>
 
 <body>
