@@ -1,11 +1,78 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priyesh's Day-02</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Priyesh !</h1>
+
+<div class="main-div">
+
+    <div class="header-box">
+        <div class="l-head">
+            <img src="#" alt="img">
+            <h3>Priyesh</h3>
+        </div>
+        <div class="r-head"> 
+            <button>More..</button>
+        </div>
+
+    </div>
+</div>
+
+<div id="grid-section">
+    <div>
+        <h2> Sung Jinboo!</h2>
+        <p>While generally heroic, Sung Jinwoo initially showed a selfish streak, prioritizing his family and personal gain, sometimes at others' expense.</p>
+        <button id="r-more" type="click">Read More..</button>
+    </div>
+    <div>
+        <h2>Madara Uchiha!</h2>
+        <p>Manipulative Madara orchestrated Rin's death, manipulated Obito, fought the Kage, and aimed for world-enslaving Infinite Tsukuyomi.</p>
+        <button id="r-more"type="click">Read More..</button>
+    </div>
+    <div>
+        <h2>Goku!</h2>
+        <p>Goku, while pure-hearted, can be naive, self-absorbed in training, and his battles often cause widespread destruction</p>
+        <button id="r-more"type="click">Read More..</button>
+    </div>
+    <div>
+        <h2>Saitma!</h2>
+        <p>While overwhelmingly strong, Saitama's apathy and boredom due to his unmatched power often lead to him being oblivious and detached from the struggles of others.</p>
+        <button id="r-more"type="click">Read More..</button>
+    </div>
+   <div>
+        <h2>Baki Hanma!</h2>
+        <p>While generally kind and respectful, Baki's intense focus on fighting can make him single-minded and occasionally neglectful of other aspects of life.</p>
+        <button id="r-more"type="click">Read More..</button>
+    </div>
+    <div>
+        <h2>Itachi Uchiha!</h2>
+        <p>Itachi massacred his clan, tormented Sasuke, and worked with Akatsuki, all for a twisted form of peace and Konoha's benefit.</p>
+        <button id="r-more"type="click">Read More..</button>
+    </div>
+  
+ 
+    
+</div>
+
+<script>
+    console.log("Priyesh !");
+  
+    const readMoreButtons = document.querySelectorAll("#r-more");
+  
+    readMoreButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        window.location.href = "new.html";
+      });
+    });
+  </script>
+
 </body>
+
 </html>
